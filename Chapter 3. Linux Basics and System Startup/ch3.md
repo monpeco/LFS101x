@@ -135,3 +135,37 @@ In most cases, the .service can be omitted. There are many technical differences
 ---
 
 ### Linux Filesystems
+
+Think of a refrigerator that has multiple shelves that can be used for storing various items. These shelves help you organize the grocery items by shape, size, type, etc. The same concept applies to a filesystem, which is the embodiment of a method of storing and organizing arbitrary collections of data in a human-usable form.
+
+Different types of filesystems supported by Linux:
+
+* Conventional disk filesystems: `ext2`, `ext3`, `ext4`, `XFS`, `Btrfs`, `JFS`, `NTFS`, etc.
+* Flash storage filesystems: `ubifs`, `JFFS2`, `YAFFS`, etc.
+* Database filesystems
+* Special purpose filesystems: `procfs`, `sysfs`, `tmpfs`, `squashfs`, `debugfs`, etc.
+
+This section will describe the standard filesystem layout shared by most Linux distributions.
+
+---
+
+### Partitions and Filesystems
+
+A partition is a physically contiguous section of a disk, or what appears to be so in some advanced setups.
+
+A filesystem is a method of storing/finding files on a hard disk (usually in a partition). 
+
+One can think of a partition as a container in which a filesystem resides, although in some circumstances, a filesystem can span more than one partition if one uses symbolic links, which we will discuss much later.
+
+A comparison between filesystems in Windows and Linux is given in the accompanying table:
+
+|            | Windows | Linux |
+|------------|---------|-------|
+| Partition	| Disk1	| /dev/sda1 |
+| Filesystem Type	| NTFS/VFAT	| EXT3/EXT4/XFS/BTRFS... |
+| Mounting Parameters	| DriveLetter	| MountPoint |
+| Base Folder (where OS is stored)	| C:\	| / |
+
+---
+
+### The Filesystem Hierarchy Standard
