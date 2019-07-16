@@ -177,12 +177,21 @@ Linux uses the ‘/’ character to separate paths (unlike Windows, which uses �
 
 |  directory  |  description  |
 |-------------|---------------|
-| `bin`       | ussential user command binaries |
-| `root`      | static files for the bootloader |
+| `bin`       | essential user command binaries |
+| `root`      | static files for the boot loader |
 | `dev`       | device files |
 | `etc`       | host specific systems configuration (required directories: opt x11, sgml, xml) |
 | `home`      | user home directories |
 | `lib`       | essential shared libraries and kernel modules |
 | `media`     | mount point for removable media |
 | `mnt`       | mount point for a temporarily mounted filesystem |
-| ``       |  |
+| `opt`       | add-on application software packages |
+| `sbin`      | system binaries |
+| `svr`       | data for services provided by this system |
+| `tmp`       | temporary files |
+| `usr`       | (multi)user utilities and applications. Secondary hierarchy required directories: bin, include, lib, local, sbin, share |
+| `var`       | variable files |
+| `root`      | home directory for the root user |
+| `proc`      | virtual filesystem documenting kernel and process status as text files |
+
+
