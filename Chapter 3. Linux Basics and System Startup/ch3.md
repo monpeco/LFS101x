@@ -230,3 +230,37 @@ Nearly all installers provide a reasonable default layout, with either all space
 ---
 
 ### Linux Installation: Software Choices
+
+All installations include the bare minimum software for running a Linux distribution.
+
+Most installers also provide options for adding categories of software. Common applications (such as the Firefox web browser and LibreOffice office suite), developer tools (like the vi and emacs text editors, which we will explore later in this course), and other popular services, (such as the Apache web server tools or MySQL database) are usually included. In addition, for any system with a graphical desktop, a chosen desktop (such as GNOME or KDE) is installed by default.
+
+All installers set up some initial security features on the new system. One basic step consists of setting the password for the superuser (root) and setting up an initial user. In some cases (such as Ubuntu), only an initial user is set up; direct root login is not configured and root access requires logging in first as a normal user and then using sudo, as we will describe later. Some distributions will also install more advanced security frameworks, such as SELinux or AppArmor. For example, all Red Hat-based systems including Fedora and CentOS always use SELinux by default, and Ubuntu comes with AppArmor up and running.
+
+---
+
+### Linux Installation: Install Source
+
+Like other operating systems, Linux distributions are provided on removable media such as USB drives and CDs or DVDs. Most Linux distributions also support booting a small image and downloading the rest of the system over the network. These small images are usable on media, or as network boot images, in which case it is possible to perform an install without using any local media.
+
+Many installers can do an installation completely automatically, using a configuration file to specify installation options. This file is called a Kickstart file for Red Hat-based systems, an AutoYAST profile for SUSE-based systems, and a Preseed file for Debian-based systems.
+
+Each distribution provides its own documentation and tools for creating and managing these files.
+
+---
+
+### Linux Installation: The Process
+
+The actual installation process is pretty similar for all distributions.
+
+After booting from the installation media, the installer starts and asks questions about how the system should be set up. These questions are skipped if an automatic installation file is provided. Then, the installation is performed.
+
+Finally, the computer reboots into the newly-installed system. On some distributions, additional questions are asked after the system reboots.
+
+Most installers have the option of downloading and installing updates as part of the installation process; this requires Internet access. Otherwise, the system uses its normal update mechanism to retrieve those updates after the installation is done.
+
+Note: The next few screens demonstrate the installation process in each of the three Linux distribution families we cover in this course. You can view a demonstration for the distribution type of your choice.
+
+---
+
+### Video: Steps to Install Ubuntu
