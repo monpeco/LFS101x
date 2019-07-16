@@ -195,3 +195,38 @@ Linux uses the ‘/’ character to separate paths (unlike Windows, which uses �
 | `proc`      | virtual filesystem documenting kernel and process status as text files |
 
 
+---
+
+
+### Choosing a Linux Distribution
+
+Suppose you intend to buy a new car. What factors do you need to consider to make a proper choice? Requirements which need to be taken into account include the size needed to fit your family in the vehicle, the type of engine and gas economy, your expected budget and available financing options, reliability record and after-sales services, etc.
+
+Similarly, determining which distribution to deploy also requires planning. The figure shows some, but not all choices. Note that many embedded Linux systems use custom crafted contents, rather than Android or Yocto.
+
+---
+
+### Questions to Ask When Choosing a Distribution
+
+Some questions worth thinking about before deciding on a distribution include:
+
+* What is the main function of the system (server or desktop)?
+* What types of packages are important to the organization? For example, web server, word processing, etc.
+* How much hard disk space is required and how much is available? For example, when installing Linux on an embedded device, space is usually constrained.
+* How often are packages updated?
+* How long is the support cycle for each release? For example, LTS releases have long-term support.
+* Do you need kernel customization from the vendor or a third party?
+* What hardware are you running on? For example, it might be X86, ARM, PPC, etc.
+* Do you need long-term stability? Can you accept (or need) a more volatile cutting edge system running the latest software?
+
+---
+
+### Linux Installation: Planning
+
+The partition layout needs to be decided at the time of installation; it can be difficult to changer later. While Linux systems handle multiple partitions by mounting them at specific points in the filesystem, and you can always modify the design later, it is always easier to try and get it right to begin with.
+
+Nearly all installers provide a reasonable default layout, with either all space dedicated to normal files on one big partition and a smaller swap partition, or with separate partitions for some space-sensitive areas like /home and /var. You may need to override the defaults and do something different if you have special needs, or if you want to use more than one disk.
+
+---
+
+### Linux Installation: Software Choices
