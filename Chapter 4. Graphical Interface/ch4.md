@@ -37,3 +37,11 @@ If the display manager is not started by default in the default runlevel, you ca
 ---
 
 ### GUI Startup
+
+When you install a desktop environment, the X display manager starts at the end of the boot process. It is responsible for starting the graphics system, logging in the user, and starting the user’s desktop environment. You can often select from a choice of desktop environments when logging in to the system.
+
+The default display manager for GNOME is called gdm. Other popular display managers include lightdm (used on Ubuntu before version 18.04 LTS) and kdm (associated with KDE).
+
+---
+
+### GNOME Desktop Environment
