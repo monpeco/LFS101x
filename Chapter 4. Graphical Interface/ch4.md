@@ -75,3 +75,40 @@ There are other options to get additional themes beyond the default selection. Y
 ---
 
 ### Logging In and Out
+
+The next few screens cover the demonstrations and Try-It-Yourself activity for members of each of the three Linux distribution families we cover in this course. You can view a demonstration for the distribution type of your choice and practice the procedure through the relevant Try-It-Yourself activity.
+
+---
+
+### Locking the Screen
+
+It is often a good idea to lock your screen to prevent other people from accessing your session while you are away from your computer. Note: This does not suspend the computer; all your applications and processes continue to run while the screen is locked.
+
+There are two ways to lock your screen:
+
+Using the graphical interface
+Clicking in the upper-right corner of the desktop, and then clicking on the lock icon.
+Using the keyboard shortcut SUPER-L 
+(The SUPER key is also known as the Windows key). 
+The keyboard shortcut for locking the screen in the three distros can be modified by altering keyboard settings, the exact prescription varying by distribution, but not hard to ascertain.
+
+To re-enter the desktop session you just need to provide your password again.
+
+The screenshot below shows how to lock the screen for Ubuntu. The details vary little in modern distributions.
+
+---
+
+### Locking and Unlocking the Screen in More Detail
+
+To lock and unlock your screen in openSUSE, perform the following steps:
+
+Click the power icon on the upper-right corner of the desktop.
+Click the lock icon. The screen is locked immediately.
+Press Enter. The login screen is displayed.
+To unlock the screen, enter the password.
+Click Unlock and the desktop screen is displayed.
+Note: When you lock the screen, GNOME will blank the screen or run a screensaver, depending on your settings.
+
+---
+
+### Switching Users
