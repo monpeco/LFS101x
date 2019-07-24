@@ -112,3 +112,44 @@ Note: When you lock the screen, GNOME will blank the screen or run a screensaver
 ---
 
 ### Switching Users
+
+Linux is a true multi-user operating system, which allows more than one user to be simultaneously logged in. If more than one person uses the system, it is best for each person to have their own user account and password. This allows for individualized settings, home directories, and other files. Users can take turns using the machine, while keeping everyone's sessions alive, or even be logged in simultaneously through the network.
+
+Note: The next few screens cover the demonstrations and Try-It-Yourself activity for members of each of the three Linux distribution families we cover in this course. You can view a demonstration for the distribution type of your choice and practice the procedure through the relevant Try-It-Yourself activity.
+
+---
+
+### Shutting Down and Restarting
+
+Besides normal daily starting and stopping of the computer, a system restart may be required as part of certain major system updates, generally only those involving installing a new Linux kernel.
+
+Initiating the shutdown process from the graphical desktop is rather trivial on all current Linux distributions, with very little variation. We will discuss later how to do this from the command line, using the shutdown command.
+
+In all cases, you click on either a settings (gear) or a power icon and follow the prompts. We will only show the detail for the Ubuntu Linux distribution.
+
+---
+
+### Shutting Down and Restarting
+
+Besides normal daily starting and stopping of the computer, a system restart may be required as part of certain major system updates, generally only those involving installing a new Linux kernel.
+
+Initiating the shutdown process from the graphical desktop is rather trivial on all current Linux distributions, with very little variation. We will discuss later how to do this from the command line, using the shutdown command.
+
+In all cases, you click on either a settings (gear) or a power icon and follow the prompts. We will only show the detail for the Ubuntu Linux distribution.
+
+---
+
+### Shutting Down and Restarting in Ubuntu
+
+To shut down the computer in Ubuntu, perform the following steps:
+
+1. On the Ubuntu desktop screen, click either the Power icon (for earlier versions) or the Gear icon in the upper-right corner of the screen.
+1. Click Shut Down. The Restart and Shut Down icons are displayed.
+1. Click the Shut Down icon on the right to shutdown the system and click the Restart icon on the left to restart the system.
+Shutdown, reboot, and logout operations will ask for confirmation before going ahead. This is because many applications will not save their data properly when terminated this way.
+
+Always save your documents and data before restarting, shutting down, or logging out. The Ubuntu screenshot given here is similar to all of the distribution confirmation windows.
+
+---
+
+### Suspending
