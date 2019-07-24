@@ -52,4 +52,26 @@ Another common desktop environment very important in the history of Linux and al
 
 ---
 
-### Video: System Startup and Logging In and Out
+### gnome-tweak-tool
+
+Most settings, both personal and system-wide, are to be found by clicking in the upper right-hand corner, on either a gear or other obvious icon, depending on your Linux distribution.
+
+However, there are many settings which many users would like to modify which are not accessible; the default settings utility is unfortunately rather limited in modern GNOME-based distributions. The desire for simplicity has actually made it difficult to adapt your system to your tastes and needs.  
+
+Fortunately, there is a standard utility, gnome-tweak-tool, which exposes many more setting options. It also permits you to easily install extensions by external parties. Not all Linux distributions install this tool by default, but it is always available. Some recent distributions have renamed this tool as gnome-tweaks. You may have to run it by hitting Alt-F2 and then typing in the name. You may want to add it to your Favorites list as we shall discuss.
+
+In the screenshot below, the keyboard mapping is being adjusted so the useless CapsLock key can be used as an additional Ctrl key; this saves users who use Ctrl a lot (such as emacs aficionados) from getting physically damaged by pinkie strain.
+
+---
+
+### Changing the Theme
+
+The visual appearance of applications (the buttons, scroll bars, widgets, and other graphical components) are controlled by a theme. GNOME comes with a set of different themes which can change the way your applications look. 
+
+The exact method for changing your theme may depend on your distribution. However, for all GNOME-based distributions, you can simply run gnome-tweak-tool, as shown in the screenshot from Ubuntu.
+
+There are other options to get additional themes beyond the default selection. You can download and install themes from the [GNOME's Wiki](https://wiki.gnome.org/Personalization) website.
+
+---
+
+### Logging In and Out
