@@ -153,3 +153,9 @@ Always save your documents and data before restarting, shutting down, or logging
 ---
 
 ### Suspending
+
+Most modern computers support Suspend Mode or Sleep Mode when you stop using your computer for a short while. Suspend Mode saves the current system state and allows you to resume your session more quickly while remaining on, but using very little power. It works by keeping your system’s applications, desktop, and so on, in system RAM, but turning off all of the other hardware. The Suspend Mode bypasses the time for a full system start-up and continues to use minimal power.
+
+---
+
+### Suspending the System
