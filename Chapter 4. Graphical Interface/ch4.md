@@ -169,4 +169,15 @@ Note: To wake your system and resume your session, move the mouse or press any b
 
 --- 
 
-### Basic Operations
+### Locating Applications
+
+
+Unlike other operating systems, the initial install of Linux usually comes with a wide range of applications and software archives that contain thousands of programs that enable you to accomplish a wide variety of tasks with your computer. For most key tasks, a default application is usually already installed. However, you can always install more applications and try different options.
+
+For example, Firefox is popular as the default browser in many Linux distributions, while Epiphany, Konqueror, and Chromium (the open source base for Google Chrome) are usually available for install from software repositories. Proprietary web browsers, such as Opera and Chrome, are also available.
+
+Locating applications from the GNOME and KDE menus is easy, as they are neatly organized in functional submenus.
+
+---
+
+### Default Applications
