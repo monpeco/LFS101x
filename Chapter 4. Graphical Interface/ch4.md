@@ -181,3 +181,19 @@ Locating applications from the GNOME and KDE menus is easy, as they are neatly o
 ---
 
 ### Default Applications
+
+Multiple applications are available to accomplish various tasks and to open a file of a given type. For example, you can click on a web address while reading an email and launch a browser such as Firefox or Chrome.
+
+To set default applications, enter the System Settings menu (on all recent Linux distributions) and then click on Details > System > Default Applications. The exact list will vary from what is shown here in the Ubuntu screenshot according to what is actually installed and available on your system.
+
+---
+
+### File Manager
+
+Each distribution implements the File Manager utility, which is used to navigate the file system. It can locate files and, when a file is clicked upon, either it will run if it is a program, or an associated application will be launched using the file as data. This behavior is completely familiar to anyone who has used other operating systems.
+
+To start the File Manager, you will have to locate its icon, a file cabinet, which is easily found under Favorites or Applications.
+
+The File Manager (Files in the case of Ubuntu) will open a window with your Home directory displayed. The left panel of the File Manager window holds a list of commonly used directories, such as Computer, Home, Desktop, Documents, Downloads and Trash.
+
+You can click the Magnifying Glass icon on the top-right of the File Manager window to search for files or directories (folders).
