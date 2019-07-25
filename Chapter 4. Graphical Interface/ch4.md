@@ -159,3 +159,14 @@ Most modern computers support Suspend Mode or Sleep Mode when you stop using you
 ---
 
 ### Suspending the System
+
+
+To suspend the system in older Ubuntu distributions, the procedure is the same as for shutdown or locking the screen. After you click the icon in the upper right side, you just select Suspend, as shown in the below snapshot
+
+However, it is quite simple and universal in recent GNOME-based distributions.  If you click on the Power icon and hold for a short time and release, you will get the double dot icon, which you then click to suspend the system.
+
+Note: To wake your system and resume your session, move the mouse or press any button on the keyboard. The system will wake up with the screen locked, just as if you had manually locked it; type in your password to resume.
+
+--- 
+
+### Basic Operations
