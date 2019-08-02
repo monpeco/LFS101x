@@ -197,3 +197,32 @@ To start the File Manager, you will have to locate its icon, a file cabinet, whi
 The File Manager (Files in the case of Ubuntu) will open a window with your Home directory displayed. The left panel of the File Manager window holds a list of commonly used directories, such as Computer, Home, Desktop, Documents, Downloads and Trash.
 
 You can click the Magnifying Glass icon on the top-right of the File Manager window to search for files or directories (folders).
+
+---
+
+### Home Directories
+
+The File Manager lets you access different locations on your computer and the network, including the Home directory, Desktop, Computer, Network, and other attached devices. The Browse Network and Connect to Server options access networked and shared devices, such as file servers and printers present on the local network.
+
+Every user with an account on the system will have a home directory, usually created under /home, and usually named according to the user, such as /home/student.
+
+By default, files the user saves will be placed in a directory tree starting there. Account creation, whether during system installation or at a later time, when a new user is added, also induces default directories to be created under the user's home directory, such as Documents, Desktop, and Downloads.
+
+In the screenshot shown for CentOS 7, we have chosen the list format and are also showing hidden files (those starting with a period). See if you can do the same on your distribution.
+
+---
+
+### Viewing Files
+
+The File Manager allows you to view files and directories in more than one way.
+
+You can switch between the Icons and List formats, either by clicking the familiar icons in the top bar, or you can press CTRL-1 or CTRL-2 respectively.
+
+In addition, you can also arrange the files and directories by name, size, type, or modification date for further sorting. To do so, click View and select Arrange Items.
+
+Another useful option is to show hidden files (sometimes imprecisely called system files), which are usually configuration files that are hidden by default and whose name starts with a dot. To show hidden files, select Show Hidden Files from the menu or press CTRL-H.
+
+The file browser provides multiple ways to customize your window view to facilitate easy drag and drop file operations. You can also alter the size of the icons by selecting Zoom In and Zoom Out under the View menu.
+
+The screenshot is taken from openSUSE.
+
